@@ -25,12 +25,12 @@
     </div>
 
     
-    <div class="alert alert-danger">
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true">×</span>
-        </button>
-        <h4 class="text-danger">{{ cleanLang(__('lang.cronjob_status')) }}</h4>
-        {{ cleanLang(__('lang.cronjob_inactive')) }}
-    </div>
+{{--    <div class="alert alert-danger">--}}
+{{--        <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true">×</span>--}}
+{{--        </button>--}}
+{{--        <h4 class="text-danger">{{ cleanLang(__('lang.cronjob_status')) }}</h4>--}}
+{{--        {{ cleanLang(__('lang.cronjob_inactive')) }}--}}
+{{--    </div>--}}
     @endif
 {{--    <div>--}}
 {{--        <!--settings documentation help-->--}}

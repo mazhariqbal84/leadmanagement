@@ -36,10 +36,10 @@
                             <a href="javascript:void(0);" data-url="/settings/currency" id="settings-menu-main-currency"
                                 class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">{{ cleanLang(__('lang.currency')) }}</a>
                         </li>
-                        <li>
-                            <a href="javascript:void(0);" data-url="/settings/theme" id="settings-menu-main-theme"
-                                class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">{{ cleanLang(__('lang.theme')) }}</a>
-                        </li>
+{{--                        <li>--}}
+{{--                            <a href="javascript:void(0);" data-url="/settings/theme" id="settings-menu-main-theme"--}}
+{{--                                class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">{{ cleanLang(__('lang.theme')) }}</a>--}}
+{{--                        </li>--}}
                         <li>
                             <a href="javascript:void(0);" data-url="/settings/logos" id="settings-menu-main-logo"
                                 class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">{{ cleanLang(__('lang.company_logo')) }}</a>
@@ -103,10 +103,10 @@
                         </span>
                     </a>
                     <ul aria-expanded="false" class="collapse">
-                        <li><a href="javascript:void(0);" data-url="/settings/clients"
-                                id="settings-menu-clients-general"
-                                class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">{{ cleanLang(__('lang.general_settings')) }}</a>
-                        </li>
+{{--                        <li><a href="javascript:void(0);" data-url="/settings/clients"--}}
+{{--                                id="settings-menu-clients-general"--}}
+{{--                                class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">{{ cleanLang(__('lang.general_settings')) }}</a>--}}
+{{--                        </li>--}}
                         <li>
                             <a class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url"
                                 id="settings-menu-categories-client" href="javascript:void(0);"
@@ -455,42 +455,42 @@
                 </li>
 
                 <!--payment gateways-->
-                <li class="sidenav-menu-item">
-                    <a class="has-arrow waves-effect waves-dark" href="javascript:void(0);" aria-expanded="false"
-                        id="settings-menu-payment-methods">
-                        <span class="hide-menu">{{ cleanLang(__('lang.payment_methods')) }}
-                        </span>
-                    </a>
-                    <ul aria-expanded="false" class="collapse">
-                        <!--paypal-->
-                        <li><a href="javascript:void(0);" data-url="/settings/paypal"
-                                id="settings-menu-payment-methods-paypal"
-                                class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">Paypal</a>
-                        </li>
-                        <!--stripe-->
-                        <li><a href="javascript:void(0);" data-url="/settings/stripe"
-                                id="settings-menu-payment-methods-stripe"
-                                class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">Stripe</a>
-                        </li>
-                        <!--razorpay-->
-                        <li><a href="javascript:void(0);" data-url="/settings/razorpay"
-                                id="settings-menu-payment-methods-stripe"
-                                class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">Razorpay</a>
-                        </li>
-                        <!--mollie-->
-                        <li><a href="javascript:void(0);" data-url="/settings/mollie"
-                                id="settings-menu-payment-methods-mollie"
-                                class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">Mollie</a>
-                        </li>
-                        <!--bank-->
-                        <li><a href="javascript:void(0);" data-url="/settings/bank"
-                                id="settings-menu-payment-methods-bank"
-                                class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">{{ cleanLang(__('lang.bank')) }}</a>
-                        </li>
+{{--                <li class="sidenav-menu-item">--}}
+{{--                    <a class="has-arrow waves-effect waves-dark" href="javascript:void(0);" aria-expanded="false"--}}
+{{--                        id="settings-menu-payment-methods">--}}
+{{--                        <span class="hide-menu">{{ cleanLang(__('lang.payment_methods')) }}--}}
+{{--                        </span>--}}
+{{--                    </a>--}}
+{{--                    <ul aria-expanded="false" class="collapse">--}}
+{{--                        <!--paypal-->--}}
+{{--                        <li><a href="javascript:void(0);" data-url="/settings/paypal"--}}
+{{--                                id="settings-menu-payment-methods-paypal"--}}
+{{--                                class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">Paypal</a>--}}
+{{--                        </li>--}}
+{{--                        <!--stripe-->--}}
+{{--                        <li><a href="javascript:void(0);" data-url="/settings/stripe"--}}
+{{--                                id="settings-menu-payment-methods-stripe"--}}
+{{--                                class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">Stripe</a>--}}
+{{--                        </li>--}}
+{{--                        <!--razorpay-->--}}
+{{--                        <li><a href="javascript:void(0);" data-url="/settings/razorpay"--}}
+{{--                                id="settings-menu-payment-methods-stripe"--}}
+{{--                                class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">Razorpay</a>--}}
+{{--                        </li>--}}
+{{--                        <!--mollie-->--}}
+{{--                        <li><a href="javascript:void(0);" data-url="/settings/mollie"--}}
+{{--                                id="settings-menu-payment-methods-mollie"--}}
+{{--                                class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">Mollie</a>--}}
+{{--                        </li>--}}
+{{--                        <!--bank-->--}}
+{{--                        <li><a href="javascript:void(0);" data-url="/settings/bank"--}}
+{{--                                id="settings-menu-payment-methods-bank"--}}
+{{--                                class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">{{ cleanLang(__('lang.bank')) }}</a>--}}
+{{--                        </li>--}}
 
 
-                    </ul>
-                </li>
+{{--                    </ul>--}}
+{{--                </li>--}}
 
                 <!--Email-->
                 <li class="sidenav-menu-item">
@@ -611,18 +611,18 @@
                 <!--Other-->
                 <!--[MULTITENANCY]-->
                 @if(config('system.settings_type') == 'standalone')
-                <li class="sidenav-menu-item">
-                    <a class="has-arrow waves-effect waves-dark" href="javascript:void(0);" aria-expanded="false"
-                        id="settings-menu-other">
-                        <span class="hide-menu">{{ cleanLang(__('lang.other')) }}
-                        </span>
-                    </a>
-                    <ul aria-expanded="false" class="collapse" id="settings-menu-other">
-                        <li><a href="javascript:void(0);" data-url="/settings/updates" id="settings-menu-other-updates"
-                                class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">{{ cleanLang(__('lang.updates')) }}</a>
-                        </li>
-                    </ul>
-                </li>
+{{--                <li class="sidenav-menu-item">--}}
+{{--                    <a class="has-arrow waves-effect waves-dark" href="javascript:void(0);" aria-expanded="false"--}}
+{{--                        id="settings-menu-other">--}}
+{{--                        <span class="hide-menu">{{ cleanLang(__('lang.other')) }}--}}
+{{--                        </span>--}}
+{{--                    </a>--}}
+{{--                    <ul aria-expanded="false" class="collapse" id="settings-menu-other">--}}
+{{--                        <li><a href="javascript:void(0);" data-url="/settings/updates" id="settings-menu-other-updates"--}}
+{{--                                class="settings-menu-link js-ajax-ux-request js-submenu-ajax js-dynamic-settings-url">{{ cleanLang(__('lang.updates')) }}</a>--}}
+{{--                        </li>--}}
+{{--                    </ul>--}}
+{{--                </li>--}}
                 @endif
             </ul>
         </nav>
